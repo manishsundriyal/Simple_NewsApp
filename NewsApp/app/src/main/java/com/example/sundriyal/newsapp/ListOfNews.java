@@ -28,7 +28,7 @@ import java.util.ArrayList;
  * Created by Sundriyal on 11/9/2017.
  */
 
-class ListOfNews extends AppCompatActivity {
+public class ListOfNews extends AppCompatActivity {
 
 
 
@@ -165,7 +165,7 @@ class ListOfNews extends AppCompatActivity {
 
             if (row == null) {
                 LayoutInflater inflater = getLayoutInflater();
-                row = inflater.inflate(R.layout.activity_display_news, parent, false);
+                row = inflater.inflate(R.layout.custom_list_row, parent, false);
             }
 
             heading = (TextView) row.findViewById(R.id.textViewForNews);
