@@ -9,7 +9,7 @@ import android.webkit.WebView;
  * Created by Sundriyal on 11/9/2017.
  */
 
-class DisplayNewsActivity extends AppCompatActivity{
+public class DisplayNewsActivity extends AppCompatActivity{
 
     WebView webView;
 
